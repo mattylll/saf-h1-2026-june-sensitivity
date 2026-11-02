@@ -1,0 +1,33 @@
+{
+  "research_id": "SAF-H1-2026",
+  "analysis_date": "2026-11-02",
+  "source_sha256": "a44fd4340aa51735fe244627b3f457a5c497bf2a9d588a8527277292e40fb658",
+  "source_compilation_date": "2026-09-12",
+  "h1_count": 19871,
+  "june_count": 1354,
+  "jan_may_count": 18517,
+  "june_share_pct": 6.813949977353933,
+  "maximum_absolute_share_change_pp": 0.26273612339689223,
+  "h1_count_ranking": [
+    "BRISTOL",
+    "MANCHESTER",
+    "NOTTINGHAM",
+    "LEEDS",
+    "SHEFFIELD",
+    "SOUTHAMPTON",
+    "EXETER",
+    "OXFORD"
+  ],
+  "jan_may_count_ranking": [
+    "MANCHESTER",
+    "BRISTOL",
+    "NOTTINGHAM",
+    "LEEDS",
+    "SHEFFIELD",
+    "SOUTHAMPTON",
+    "EXETER",
+    "OXFORD"
+  ],
+  "report_url": "https://studentaccommodationfinance.co.uk/insights/h1-2026-student-accommodation-finance-report/",
+  "limits": "General residential transactions in eight exact postal towns; fixed 6 August 2026 source file. Excluding June is a sensitivity check, not a correction for registration lag. No pooled or January-May price medians can be recovered from these aggregates."
+}

@@ -1,0 +1,401 @@
+{
+  "reportPeriod": {
+    "from": "2026-01-01",
+    "to": "2026-06-30"
+  },
+  "compilationDate": "2026-09-12",
+  "companiesHouse": {
+    "label": "Student-labelled property-company / collateral-description cohort; charge instruments created in H1",
+    "screenedChargeInstruments": 124,
+    "screenedCompanies": 57,
+    "monthly": [
+      {
+        "month": "2026-01",
+        "charge_instruments": 31
+      },
+      {
+        "month": "2026-02",
+        "charge_instruments": 15
+      },
+      {
+        "month": "2026-03",
+        "charge_instruments": 27
+      },
+      {
+        "month": "2026-04",
+        "charge_instruments": 16
+      },
+      {
+        "month": "2026-05",
+        "charge_instruments": 12
+      },
+      {
+        "month": "2026-06",
+        "charge_instruments": 23
+      }
+    ],
+    "quarterly": [
+      {
+        "quarter": "Q1 2026",
+        "chargeInstruments": 73
+      },
+      {
+        "quarter": "Q2 2026",
+        "chargeInstruments": 51
+      }
+    ],
+    "h1CreatedJulyFiled": 4,
+    "methodology": [
+      "This is not a census of PBSA or student-sector lending. Company-name matching misses unlabelled SPVs and can include other assets owned by student-labelled companies.",
+      "Instruments are not loans or deals. One financing can generate multiple charges, security types, entities and titles. No loan amounts, leverage, interest rates, or terms are provided by this extraction.",
+      "Persons entitled can be security trustees or agents; they are not necessarily the economic lender. Do not infer lender market share.",
+      "created_on is the analytical event date. delivered_on is filing date. Present satisfaction status is not status at 30 June.",
+      "Only 10 screened instruments explicitly mention student in collateral text; the wider 124 cohort is exploratory, not verified property occupancy."
+    ],
+    "sourceVintage": "Company snapshot 1 August 2026; charge data through 31 July 2026. H1 creation dates only."
+  },
+  "planning": {
+    "label": "Observed student-related planning applications received in H1, after manual classification",
+    "eligibleExportFiles": 288,
+    "authorityLabels": 188,
+    "h1KeywordRecords": 116,
+    "classification": {
+      "capacity_primary": 25,
+      "operations": 8,
+      "retrospective_capacity": 2,
+      "flexible_exit": 10,
+      "neighbour_consultation": 7,
+      "planning_administration": 61,
+      "lawful_proposed_conversion": 1,
+      "listed_duplicate": 1,
+      "unrelated": 1
+    },
+    "activityChart": [
+      {
+        "label": "Primary capacity proposals",
+        "records": 25
+      },
+      {
+        "label": "Flexibility or exit records",
+        "records": 10
+      },
+      {
+        "label": "Refurbishment and operating works",
+        "records": 8
+      }
+    ],
+    "methodology": [
+      "Observed sample across local exports, not a UK planning census; authority labels can represent shared planning services.",
+      "Eligible snapshots span H1, but coverage, relevance filtering and date resolution vary. Refused/withdrawn individual applications are not exposed in these latest exports; no approval-rate estimate is possible.",
+      "Receipt-date cohort and decision-date cohort are different. Current exported bucket can reflect an H2 decision, which must not be backdated into H1.",
+      "61 of 116 H1 received keyword records are planning administration; neighbouring consultations, listed consents and retrospective applications are separately classified.",
+      "25 primary capacity-related applications include redevelopment, extension, conversion and a mixed-use outline; they are not 25 newly consented schemes or net additional beds.",
+      "10 flexible-use/exit records include one pre-application and one lawful-use record; student restriction removal does not prove actual student-bed loss.",
+      "Units and estimatedGdv are residential extraction fields and must not be summed as PBSA beds or PBSA gross development value. Original proposal text is authoritative for any selected capacity example."
+    ]
+  },
+  "sold": {
+    "label": "Observed H1 2026 residential sales in eight selected postal towns \u2014 market context only",
+    "cities": [
+      {
+        "town": "BRISTOL",
+        "observed_sales_h1": 4064,
+        "median_price_h1": 350000.0,
+        "terraced_observed_sales_h1": 1567,
+        "terraced_median_price_h1": 344000,
+        "flat_observed_sales_h1": 890,
+        "flat_median_price_h1": 235000.0,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 805
+          },
+          {
+            "month": "2026-02",
+            "sales": 758
+          },
+          {
+            "month": "2026-03",
+            "sales": 813
+          },
+          {
+            "month": "2026-04",
+            "sales": 672
+          },
+          {
+            "month": "2026-05",
+            "sales": 719
+          },
+          {
+            "month": "2026-06",
+            "sales": 297
+          }
+        ]
+      },
+      {
+        "town": "EXETER",
+        "observed_sales_h1": 712,
+        "median_price_h1": 300000.0,
+        "terraced_observed_sales_h1": 272,
+        "terraced_median_price_h1": 270000.0,
+        "flat_observed_sales_h1": 107,
+        "flat_median_price_h1": 172500,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 118
+          },
+          {
+            "month": "2026-02",
+            "sales": 146
+          },
+          {
+            "month": "2026-03",
+            "sales": 147
+          },
+          {
+            "month": "2026-04",
+            "sales": 135
+          },
+          {
+            "month": "2026-05",
+            "sales": 111
+          },
+          {
+            "month": "2026-06",
+            "sales": 55
+          }
+        ]
+      },
+      {
+        "town": "LEEDS",
+        "observed_sales_h1": 2854,
+        "median_price_h1": 230000.0,
+        "terraced_observed_sales_h1": 977,
+        "terraced_median_price_h1": 185000,
+        "flat_observed_sales_h1": 436,
+        "flat_median_price_h1": 144250.0,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 543
+          },
+          {
+            "month": "2026-02",
+            "sales": 553
+          },
+          {
+            "month": "2026-03",
+            "sales": 560
+          },
+          {
+            "month": "2026-04",
+            "sales": 526
+          },
+          {
+            "month": "2026-05",
+            "sales": 442
+          },
+          {
+            "month": "2026-06",
+            "sales": 230
+          }
+        ]
+      },
+      {
+        "town": "MANCHESTER",
+        "observed_sales_h1": 4053,
+        "median_price_h1": 235000,
+        "terraced_observed_sales_h1": 1447,
+        "terraced_median_price_h1": 210000,
+        "flat_observed_sales_h1": 839,
+        "flat_median_price_h1": 179000,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 785
+          },
+          {
+            "month": "2026-02",
+            "sales": 838
+          },
+          {
+            "month": "2026-03",
+            "sales": 839
+          },
+          {
+            "month": "2026-04",
+            "sales": 663
+          },
+          {
+            "month": "2026-05",
+            "sales": 670
+          },
+          {
+            "month": "2026-06",
+            "sales": 258
+          }
+        ]
+      },
+      {
+        "town": "NOTTINGHAM",
+        "observed_sales_h1": 3358,
+        "median_price_h1": 220000.0,
+        "terraced_observed_sales_h1": 944,
+        "terraced_median_price_h1": 175000.0,
+        "flat_observed_sales_h1": 282,
+        "flat_median_price_h1": 133750.0,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 643
+          },
+          {
+            "month": "2026-02",
+            "sales": 660
+          },
+          {
+            "month": "2026-03",
+            "sales": 647
+          },
+          {
+            "month": "2026-04",
+            "sales": 563
+          },
+          {
+            "month": "2026-05",
+            "sales": 600
+          },
+          {
+            "month": "2026-06",
+            "sales": 245
+          }
+        ]
+      },
+      {
+        "town": "OXFORD",
+        "observed_sales_h1": 559,
+        "median_price_h1": 440000,
+        "terraced_observed_sales_h1": 178,
+        "terraced_median_price_h1": 436500.0,
+        "flat_observed_sales_h1": 122,
+        "flat_median_price_h1": 300000.0,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 103
+          },
+          {
+            "month": "2026-02",
+            "sales": 115
+          },
+          {
+            "month": "2026-03",
+            "sales": 102
+          },
+          {
+            "month": "2026-04",
+            "sales": 101
+          },
+          {
+            "month": "2026-05",
+            "sales": 100
+          },
+          {
+            "month": "2026-06",
+            "sales": 38
+          }
+        ]
+      },
+      {
+        "town": "SHEFFIELD",
+        "observed_sales_h1": 2343,
+        "median_price_h1": 205000,
+        "terraced_observed_sales_h1": 732,
+        "terraced_median_price_h1": 182750.0,
+        "flat_observed_sales_h1": 318,
+        "flat_median_price_h1": 136500.0,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 461
+          },
+          {
+            "month": "2026-02",
+            "sales": 489
+          },
+          {
+            "month": "2026-03",
+            "sales": 511
+          },
+          {
+            "month": "2026-04",
+            "sales": 408
+          },
+          {
+            "month": "2026-05",
+            "sales": 363
+          },
+          {
+            "month": "2026-06",
+            "sales": 111
+          }
+        ]
+      },
+      {
+        "town": "SOUTHAMPTON",
+        "observed_sales_h1": 1928,
+        "median_price_h1": 295000.0,
+        "terraced_observed_sales_h1": 512,
+        "terraced_median_price_h1": 270000.0,
+        "flat_observed_sales_h1": 450,
+        "flat_median_price_h1": 165000.0,
+        "monthly_observed_sales": [
+          {
+            "month": "2026-01",
+            "sales": 385
+          },
+          {
+            "month": "2026-02",
+            "sales": 378
+          },
+          {
+            "month": "2026-03",
+            "sales": 395
+          },
+          {
+            "month": "2026-04",
+            "sales": 310
+          },
+          {
+            "month": "2026-05",
+            "sales": 340
+          },
+          {
+            "month": "2026-06",
+            "sales": 120
+          }
+        ]
+      }
+    ],
+    "methodology": [
+      "England and Wales HM Land Registry residential Price Paid Data; postal town is not local-authority geography. Bristol and other postal towns extend beyond central university markets.",
+      "H1 transaction dates from the annual 2026 CSV held in the Construction Capital sold-data lake, local file timestamp 6 August 2026. Late registrations, especially June, materially understate final counts. Do not infer a decline in liquidity from incomplete recent-month counts.",
+      "Unique transaction GUIDs are the unit of observation; all selected records have A status. There are no duplicate GUIDs. Identical prices/addresses/dates with different GUIDs are retained.",
+      "Median is the transaction-sample median, not a constant-quality price index, PBSA valuation, student-HMO valuation, portfolio price, or loan value. No annualised return or yield can be inferred.",
+      "Generic sold export rolling medians were not used: many state dataAsOf 31 May despite showing individual June transactions.",
+      "The existing charge_properties matched_price uses postcode/house-number heuristics and can choose another property. No such price is treated as a verified PBSA acquisition or collateral value."
+    ],
+    "sourceUrl": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads",
+    "observedRecordCount": 19871,
+    "duplicatesRemoved": 0,
+    "sourceVintage": "Annual 2026 CSV retained in Construction Capital sold-data lake; local file timestamp 6 August 2026; H1 sale dates."
+  },
+  "verification": {
+    "companiesHouseQueryResultSha256": "75cd302eb136947965de68e14e500cc1313c0ba5fd425ba10d7a8d1e2fe85aad",
+    "soldQueryResultSha256": "ed4e382127176b9e038701224c11686688477507b81f7fc221c26c8ba869f211",
+    "reviewedPlanningClassificationSha256": "6e8ff49cbe9b7a2fec76dd1090820dfa404012763c9768831360fe9e910365d8",
+    "soldRawCsvSha256": "29222c20e87e0782559ff06546c232c975d5956015fe23d24106dd3e098979cb"
+  },
+  "publicationScope": "Aggregated market evidence. Transaction-level identities, counterparty mappings and record-specific source references are retained privately."
+}
